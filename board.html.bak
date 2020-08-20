@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Board -- 公告</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" onClick="javascript :history.back(-1);">← back</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+		 <li><div id="time"></div><font color="white" size="4"><script type="text/javascript">function getD1(){var date=new Date();var d1=date.toLocaleString();var div1=document.getElementById("time");div1.innerHTML =d1;}setInterval("getD1();",1000);</script></font></li>
+           <li><a href="index.html">主页</a></li>
+             <li><a href="about.html">关于</a></li>
+             <li class="active"><a href="board.html">公告</a></li>
+            <li><a href="contact.html">联系我</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>公告</h1>
+        <p class="lead">怎么说呢,这是一个无聊弄的一个website,功能有待完善，如果各位有需求或者有想法的可以提出来，只要不太过分我都会完成的吧，进度也会实时公开的
+<br/>
+此Website的自我介绍<br/>
+1.采用HTTPS加密，采用Let Encrypt的SSL证书，安全性完全可靠<br/>
+
+2.使用Github的私有仓库，使用Netlify对外访问<br/>
+3.多功能实现<br/>
+4.更多</p>
+      </div>
+
+    </div><!-- /.container -->
+<div id="footer">
+    <center>
+    暂无更多，如有需求，请联系我!<a href="contact.html">跳转</a>
+    </center>
+    <center>
+    &copy;2020-2020 <a href="https://mosovip.cf" style="color:black">mosovip.cf</a> Some Right Reserved.
+    </center>
+    <center>
+    <a href="https://github.com/">
+    <img src="images/Github.png" alt="">
+    </a>
+    <a href="https://netlify.com/">
+    <img src="images/Netlify.png" alt="">
+    </a>
+    <a href="https://qm.qq.com/cgi-bin/qm/qr?k=cDdbCJY-UnJRd9jFt95MNPCaaN596Woa&authKey=rDznTyHdsnsfzCrel00eFy8b0fGgp4nz6wYupYayOIucx9ICkdz3MR+Vo718VpXC&noverify=0">
+    <img src="images/QQ.png" alt="">
+    </a>
+    
+    </center>
+    </div>
+    <br/>
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Building Now</title>
+</head>
+<body><center>
+<font size="100"><br/>
+<h1>Building Now!</h1>
+<h1>正在开发!</h1>
+<h1>
+</font>
+</center>
+<div id="footer">
+    <center><font size="100">
+    暂无更多，如有需求，请联系我!<a href="contact.html">跳转</a>
+    </center></font>
+    <center><font size="50">
+    &copy;2020-2020 <a href="https://mosovip.cf" style="color:black">mosovip.cf</a> Some Right Reserved.
+    </center></font>
+    <center>
+    <a href="https://github.com/">
+    <img src="images/Github.png" alt="">
+    </a>
+    <a href="https://netlify.com/">
+    <img src="images/Netlify.png" alt="">
+    </a>
+    <a href="https://qm.qq.com/cgi-bin/qm/qr?k=cDdbCJY-UnJRd9jFt95MNPCaaN596Woa&authKey=rDznTyHdsnsfzCrel00eFy8b0fGgp4nz6wYupYayOIucx9ICkdz3MR+Vo718VpXC&noverify=0">
+    <img src="images/QQ.png" alt="">
+    </a>
+    
+    </center>
+    </div>
+    <br/>
+</body>
+</html>

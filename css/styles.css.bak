@@ -1,0 +1,17 @@
+
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.buildcard {
+     width: 200px;
+     height: 150px;
+     background-color: white;
+     border: 1px solid #333;
+     border-radius: 10px;
+}
